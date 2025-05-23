@@ -1,3 +1,35 @@
+Voici une version corrigée et améliorée de ton texte, avec une meilleure formulation, orthographe et clarté technique :
+
+
+---
+
+Objet : Point sur la configuration Oracle et l’accès en VBA
+
+Bonjour,
+
+Suite à mes échanges avec Yassine, voici comment cela fonctionne pour le client Oracle :
+
+Définir la variable d’environnement TNS_ADMIN afin qu’elle pointe vers le bon répertoire (contenant tnsnames.ora).
+
+Modifier la variable d’environnement Path en supprimant les références à Oracle en version 32 bits.
+
+Adapter la méthode de connexion, en VBA, à la base de données Oracle : utiliser OLE DB (Provider=) au lieu de ODBC (Driver=).
+
+
+Concernant l'utilisation de la bibliothèque AdfinX Real Time 6.0 Library, je ne trouve pas d’équivalent compatible avec Excel/VBA en 64 bits.
+A priori, cette bibliothèque ne fonctionne qu’en environnement 32 bits.
+
+Bien à vous,
+
+
+---
+
+Souhaites-tu que je l’adapte à un ton plus formel ou plus collaboratif selon le destinataire ?
+
+
+
+
+
 If your database isn’t defined in the tnsnames.ora file, you have two options:
 
 
