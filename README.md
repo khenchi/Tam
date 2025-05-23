@@ -1,4 +1,22 @@
-Voici une version corrigée et améliorée de ton texte, avec une meilleure formulation, orthographe et clarté technique :
+@echo off
+REM Activer le venv et exécuter un script Python
+
+REM Chemin vers le dossier du projet
+cd /d "C:\chemin\vers\ton\projet"
+
+REM Activer le venv (Windows)
+call venv\Scripts\activate.bat
+
+REM Lancer le script Python avec des arguments si besoin
+python main.py --input input.txt --output output.txt --verbose 1
+
+REM Pause pour voir les résultats si lancé en double-clic
+pause
+
+
+
+
+oici une version corrigée et améliorée de ton texte, avec une meilleure formulation, orthographe et clarté technique :
 
 
 ---
